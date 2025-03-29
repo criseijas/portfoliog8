@@ -1,0 +1,77 @@
+body{
+    background-color: #FCFFB2;
+    /*background-color: #FFCDEA;*/
+    /*background-color: #cef565;*/
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.header{
+    width: 90%;
+    padding: 2rem;
+    margin: 0 auto;
+    
+}
+
+.titulo-ppal{
+    font-family: "Bangers", system-ui;
+    font-size: 10rem;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 5rem;
+
+}
+
+.titulo-nombre{
+    font-family: "Bangers", system-ui;
+    font-size: 10rem;
+    text-align: center;
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav{
+    margin-top: 2.5rem;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+a span{
+    transform: rotate(20deg);
+    /*color: #BC7FCD;*/
+    color: #FF55BB;
+    font-weight: bolder;
+}
+
+img:hover{
+    transform: rotate(20deg);
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

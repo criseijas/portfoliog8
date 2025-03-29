@@ -1,7 +1,8 @@
 body{
-    background-color: #FCFFB2;
+    /*background-color: #FCFFB2;*/
     /*background-color: #FFCDEA;*/
     /*background-color: #cef565;*/
+    background-color: #FFACAC;
     font-family: "Red Hat Display", sans-serif;
 }
 
@@ -14,7 +15,7 @@ body{
 
 .titulo-ppal{
     font-family: "Bangers", system-ui;
-    font-size: 10rem;
+    font-size: 11rem;
     text-transform: uppercase;
     margin: 0;
     margin-left: 5rem;
@@ -62,7 +63,8 @@ a{
 a span{
     transform: rotate(20deg);
     /*color: #BC7FCD;*/
-    color: #FF55BB;
+    /*color: #FF55BB;*/
+    color: #FBFFB1;
     font-weight: bolder;
 }
 
@@ -74,4 +76,9 @@ img:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.imagen-mochila{
+    width: 120%;
+    transform: rotate(10deg);
 }
